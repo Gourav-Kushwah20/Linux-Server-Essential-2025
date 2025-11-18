@@ -64,7 +64,11 @@ mkdir /home/sec-learner/public_html
 
 ```bash
 chmod 711 /home/sec-learner
+```
+```bash
 chown -R sec-learner:sec-learner /home/sec-learner/public_html
+```
+```bash
 chmod -R 755 /home/sec-learner/public_html
 ```
 
@@ -100,6 +104,8 @@ vim /etc/httpd/conf.d/sec-learner.conf
 
 ```bash
 useradd infosec
+```
+```bash
 passwd infosec
 ```
 

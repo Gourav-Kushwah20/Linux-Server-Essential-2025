@@ -1,6 +1,7 @@
 # Binding With IP Address in Apache
 Apache can bind to specific IP addresses and ports,allowing you to host multiple websites on the same server using Virtual Hosts.
 This guide covers how to configure Apache to bind to specific Ip addresses and set Up Virual Hosts for multiple websites.
+
 ---
 ## 1.Create Website Directories
 - 1.Navigate to the document root:
