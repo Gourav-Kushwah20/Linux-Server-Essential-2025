@@ -1,5 +1,5 @@
 # 🚀 **Anonymous-FTP-Access-Configuration**
-
+![alt text](./img/image.png)
 ## 🔐 **Anonymous FTP Access Configuration on a Linux Server**
 
 This guide walks you through installing, configuring, and enabling **anonymous FTP access** using **vsftpd** on a Red Hat–based system. It also includes firewall setup using **firewalld**. 🔧🐧
