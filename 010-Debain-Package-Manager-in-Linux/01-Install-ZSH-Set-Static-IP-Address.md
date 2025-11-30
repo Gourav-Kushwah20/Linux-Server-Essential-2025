@@ -166,7 +166,6 @@ reboot
 ---
 
 ## 📦 Debian Repository & Essential Packages Setup
-# 📦 Debian Repository & Essential Packages Setup
 
 ##  Edit APT Sources List
 ```bash
