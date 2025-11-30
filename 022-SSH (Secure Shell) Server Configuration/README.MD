@@ -1,5 +1,7 @@
 # SSH Hardening Guide
 
+![alt text](image.png)
+
 This repository contains a set of guides focused on securing and hardening your SSH configuration.
 
 ## 📁 Documentation
