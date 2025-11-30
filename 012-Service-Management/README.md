@@ -1,5 +1,7 @@
 # 🛠 Service Management in Linux
 
+![alt text](image.png)
+
 Managing services in Linux is a fundamental part of system administration.  
 Services are background processes that provide core functionality such as networking, web hosting, logging, and more.
 
