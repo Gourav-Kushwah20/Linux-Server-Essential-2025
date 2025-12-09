@@ -1,4 +1,4 @@
-# 🚫 Prevent-Root-Login-via-SSH
+#  Prevent-Root-Login-via-SSH
 
 ## 🔒 Prevent Root Login via SSH
 
@@ -6,7 +6,7 @@ Restricting root login over SSH is a recommended security practice to reduce pot
 
 ---
 
-# 📝 Edit the SSH Configuration
+## 📝 Edit the SSH Configuration
 
 ### ✔️ You can define `PermitRootLogin no` in either:
 
@@ -56,9 +56,15 @@ grep -ri "PermitRootLogin" /etc/ssh/sshd_config.d/
 ```
 
 ```bash
-grep -ri "PermitRootLogin" /etc/ssh/sshd_config
+grep -ri "PermitRootLogin" /etc/ssh/sshd_config*
 ```
-
+- Output
+```
+/etc/ssh/sshd_config:#PermitRootLogin prohibit-password
+/etc/ssh/sshd_config:PermitRootLogin no
+/etc/ssh/sshd_config:# the setting of "PermitRootLogin prohibit-password".
+/etc/ssh/sshd_config.d/01-permitrootlogin.conf:PermitRootLogin no
+```
 ---
 
 ## 🔄 Restart SSHD

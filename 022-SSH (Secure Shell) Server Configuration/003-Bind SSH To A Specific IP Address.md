@@ -17,7 +17,7 @@ vim /etc/ssh/sshd_config
 ### Look for the `ListenAddress` directive and set it to the desired IP address, for example:
 
 ```bash
-ListenAddress 192.168.1.21
+ListenAddress 192.168.1.23
 ```
 
 ### If you're also changing the port (e.g., from 22 to 2222), ensure the `Port` directive reflects that:
@@ -63,7 +63,7 @@ Here is a practical snippet from **/etc/ssh/sshd_config** demonstrating both por
 ```bash
 Include /etc/ssh/sshd_config.d/*.conf
 Port 2200
-ListenAddress 192.168.1.32
+ListenAddress 192.168.1.23
 AuthorizedKeysFile .ssh/authorized_keys
 Subsystem   sftp   /usr/libexec/openssh/sftp-server
 ```
