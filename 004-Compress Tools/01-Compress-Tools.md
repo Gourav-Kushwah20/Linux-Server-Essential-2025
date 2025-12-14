@@ -1,4 +1,4 @@
-## **Archiving and Compression**
+# **Archiving and Compression**
 
 Archiving and compression are essential techniques for managing files efficiently in Linux.
 

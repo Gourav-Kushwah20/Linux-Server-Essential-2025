@@ -1,4 +1,4 @@
-## 🔚 `tail` Commands
+# 🔚 `tail` Commands
 
 The `tail` command is used to display the **last part** of files, typically the last 10 lines by default. It's useful for monitoring log files and viewing recent file changes.
 

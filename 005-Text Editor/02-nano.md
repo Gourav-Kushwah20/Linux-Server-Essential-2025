@@ -1,4 +1,3 @@
-
 # **`nano` Text Editor**  
 
 The `nano` command is a simple and user-friendly text editor for editing files directly in the terminal. It is easy to use and comes pre-installed on many Linux distributions.  
@@ -53,5 +52,11 @@ nano [OPTIONS] filename
 - **Move to the end of the file:** `CTRL + V`  
 - **Undo last action:** `ALT + U`  
 - **Redo last undone action:** `ALT + E`  
-- **Command Excute in nano editor:** `CTRL + T` 
+
 ---
+
+For more details, check the manual pages:  
+```
+nano --help
+man nano
+```

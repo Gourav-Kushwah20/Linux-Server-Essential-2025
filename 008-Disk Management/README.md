@@ -1,5 +1,7 @@
 # 📂 Disk Management in Linux
 
+![alt text](image.png)
+
 Disk management involves **viewing, partitioning, formatting, mounting, and monitoring disks**.
 
 ---

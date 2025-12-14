@@ -128,14 +128,3 @@ Vim operates in **different modes**, each designed for specific tasks.
 - **Undo last change**: `u`  
 - **Redo last change**: `Ctrl + r`  
 
-`Showing Line Number`
-
-set number
-set nu
-
-set nonumber
-set nonu
-
-find
-
-:s/pattern_you_find

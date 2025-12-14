@@ -1,5 +1,5 @@
 # SSH Essential Guides
-
+![alt text](image.png)
 This repository contains a collection of guides covering essential SSH (Secure Shell) concepts, configuration steps, security practices, and commonly used tools.
 
 ## 📚 Documentation Index
@@ -35,16 +35,6 @@ Each guide contains:
 * Troubleshooting tips
 
 ---
-
-## 🚀 Getting Started
-
-If you're new to SSH, start with:
-
-* **001-SSH (Secure Shell) Server** – Introduction and setup
-* **006-SSH Public And Private Key Configuration** – Essential for secure authentication
-
----
-
 
 
 

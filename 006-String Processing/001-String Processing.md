@@ -57,30 +57,35 @@ tr 'a-z' 'A-Z' < input.txt     # 🛠️ Convert text to uppercase
 grep "error" logfile.txt
 ```
 ### 2. Replace Text in a String
-
+```bash
 echo "hello world" | sed 's/world/Linux/'
-
+```
 ### 3. Extract the 2nd Column from a CSV
-
+```bash
 cut -d',' -f2 file.csv
-
+```
 ### 4. Convert Lowercase to Uppercase
-
+```bash
 echo "linux" | tr 'a-z' 'A-Z'
-
+```
 ### 5. Trim Whitespace (Leading & Trailing)
-
+```bash
 echo "  hello world  " | awk '{$1=$1; print}'
+```
 
-🧠 Tip
+---
+
+## 🧠 Tip
 
 You can combine commands with pipes (|) for advanced string manipulation. For more powerful needs, use scripting languages like Bash, Perl, or Python.
 
+--- 
+
 ### 📚 Related Topics
 
-    Shell scripting
+- Shell scripting
 
-    Regular expressions
+- Regular expressions
 
-    Text processing pipelines
+- Text processing pipelines
 
