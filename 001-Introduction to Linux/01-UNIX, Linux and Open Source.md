@@ -1,5 +1,7 @@
 <h1 align="center"> 🐧 Introduction to Linux</h1>
 
+![alt text](image.png)
+
 ## 🖥️ OPERATING SYSTEM (OS)
 An **Operating System (OS)** is a software that manages computer hardware and software resources while providing essential services for computer programs. It acts as an intermediary between users and computer hardware.
 
@@ -7,6 +9,8 @@ An **Operating System (OS)** is a software that manages computer hardware and so
 1. 🧠 **Process Management**: Handles process scheduling, creation, execution, and termination.
 2. 🧮 **Memory Management**: Allocates and deallocates memory space efficiently for running programs.
 3. 🔌 **I/O Management**: Manages input and output operations, ensuring seamless communication between hardware devices and software applications.
+
+---
 
 ### 🧭 Linux Workflow  
 **👤 User → 🖳 Shell → 🧠 Kernel → 🧰 Hardware**
@@ -73,6 +77,7 @@ Linux distributions (distros) are versions of Linux that package the kernel with
 
 ---
 
+
 ## 📌 Key Concepts
 
 ### 🧱 What is Linux?
@@ -85,18 +90,6 @@ Linux distributions (distros) are versions of Linux that package the kernel with
 - **🖳 Shell** – Interface between user and system (e.g., Bash).
 - **📁 File System** – Organized in a hierarchy (starts with `/`).
 - **🛠️ Utilities** – Tools and commands for various tasks.
-
----
-
-## 💡 Linux Distributions
-
-| 🐧 Distro     | 📝 Description                          |
-|--------------|------------------------------------------|
-| Ubuntu       | User-friendly, great for beginners       |
-| Fedora       | Cutting-edge, backed by Red Hat          |
-| Debian       | Stable and widely supported              |
-| Arch Linux   | Minimalist and customizable              |
-| CentOS       | Enterprise-ready, long-term support      |
 
 ---
 
@@ -116,40 +109,10 @@ Linux distributions (distros) are versions of Linux that package the kernel with
 
 ---
 
-## 📂 Linux Directory Structure
-
-- `/` – 🗂️ Root directory  
-- `/home` – 👤 User directories  
-- `/etc` – ⚙️ Configuration files  
-- `/bin` – 🔧 Essential binary commands  
-- `/usr` – 📦 User programs and data  
-- `/var` – 📝 Variable files (logs, etc.)
-
----
-
-## 🔐 Permissions in Linux
-
-- **Read (r)** – 📖 View the contents  
-- **Write (w)** – ✏️ Modify the contents  
-- **Execute (x)** – 🚀 Run as a program
-
-Example: `rwxr-xr--`
-
----
-
 ## 🚀 Why Learn Linux?
 
 - 💼 In-demand skill in tech industries.  
 - 🧩 Power and flexibility for development and administration.  
 - 🤝 Strong support from open-source communities.
-
----
-
-## ✅ Tips for Beginners
-
-- 🧪 Practice basic commands daily.  
-- 💻 Explore different distributions via virtual machines.  
-- 📚 Use `man <command>` to learn more about any command.  
-- 🧑‍🤝‍🧑 Join forums like Stack Overflow and LinuxQuestions.
 
 ---
