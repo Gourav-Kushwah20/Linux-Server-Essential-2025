@@ -68,6 +68,8 @@ dpkg --print-architecture
 ### 3️⃣ Update & Upgrade Packages
 ```bash
 apt update
+```
+```bash
 apt upgrade -y
 ```
 
@@ -89,9 +91,11 @@ vim /etc/ssh/sshd_config
 ### 7️⃣ Enable & Start SSH Service
 ```bash
 systemctl enable ssh
-
+```
+```bash
 systemctl start ssh
-
+```
+```bash
 systemctl restart ssh
 ```
 
@@ -139,13 +143,12 @@ iface enp0s8 inet static
     broadcast 192.168.2.255
     dns-nameservers 8.8.8.8 8.8.4.4
 iface enp0s8 inet6 auto
-
 ```
-
 
 ### 1️⃣ Edit DNS Configuration
 ```bash
 vim /etc/resolv.conf
+```
 
 ### Default Settings Example
 ```bash
@@ -154,7 +157,7 @@ nameserver 8.8.4.4
 ```
 
 ### 2️⃣ Optional: Restart Network Interface
-```
+
 ```bash
 ifdown enp0s3 && ifup enp0s3
 ```
