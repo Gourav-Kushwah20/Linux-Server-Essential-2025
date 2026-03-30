@@ -1,5 +1,4 @@
 # 🐧 Basic Linux Commands
-
 ---
 
 ## 📂 `pwd`
@@ -102,7 +101,7 @@ cd [directory]
 
 ---
 
-# 💻 System Information
+## 💻 System Information
 
 ## 🗓️ `date`
 
@@ -170,7 +169,7 @@ df -h
 
 ---
 
-# 👤 User and Session Information
+## 👤 User and Session Information
 
 ## 🙋 `whoami`
 
@@ -198,7 +197,7 @@ id user
 
 ---
 
-# ⚙️ Process and Memory Information
+## ⚙️ Process and Memory Information
 
 ## 📊 `ps -aux`
 
@@ -226,7 +225,7 @@ free -h
 
 ---
 
-# 📚 Help and Documentation
+## 📚 Help and Documentation
 
 ## 📖 `man`
 
@@ -272,7 +271,7 @@ help cd
 
 ---
 
-# 🔌 System Shutdown and Reboot
+## 🔌 System Shutdown and Reboot
 
 ## ⛔ `shutdown`
 
